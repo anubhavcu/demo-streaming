@@ -1,13 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 import Home from "./dist/pages/Home";
 
-function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+export default class App extends Component {
+  state = {
+    grid: [],
+  };
+  render() {
+    return (
+      <div className="App">
+        <Home />
+      </div>
+    );
+  }
 }
-
-export default App;
