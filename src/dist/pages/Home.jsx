@@ -7,11 +7,14 @@ import { Route, NavLink, HashRouter as Router, Switch } from "react-router-dom";
 import "./home.css";
 
 export default class Home extends Component {
+  state = {
+    title: "Tiles",
+  };
   render() {
     return (
       <div>
         <Header />
-        <TitleBar />
+        <TitleBar title={this.state.title} />
         <div className="container">
           <NavLink activeClassName="active" to="/movies">
             <div className="movies-tile"></div>

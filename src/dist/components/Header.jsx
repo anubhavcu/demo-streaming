@@ -10,7 +10,7 @@ export default class Header extends Component {
           {/*   Log In */}
           {/* </a> */}
           <nav className="navbar navbar-dark bg-primary">
-            <a className="navbar-brand">
+            <a className="navbar-brand" href=".">
               <strong>Demo Streaming</strong>
             </a>
             <div>

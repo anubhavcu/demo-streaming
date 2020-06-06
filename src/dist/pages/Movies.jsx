@@ -4,11 +4,14 @@ import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
 import Content from "../components/content/Content";
 export default class Home extends Component {
+  state = {
+    title: "Movies",
+  };
   render() {
     return (
       <div>
         <Header />
-        <TitleBar />
+        <TitleBar title={this.state.title} />
         <Content />
         <Footer />
       </div>
