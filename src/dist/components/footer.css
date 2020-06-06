@@ -1,0 +1,28 @@
+.download-logos{
+        float:right
+}
+.apple-store-logo{
+        margin-right:10px;
+        margin-left:10px;
+        height:40px;
+        width:135px;
+        background-image:url('../assets/apple-app-store.svg');
+        float:right
+}
+.play-store-logo{
+        margin-right:10px;
+        margin-left:10px;
+height:40px;
+width:135px;
+background-image:url('../assets/play-store-logo.svg');
+float:right
+}
+.windows-store-logo{
+        margin-right:10px;
+        margin-left:10px;
+        height: 40px;
+        width : 110px;
+        background-image:url('../assets/windows-store.svg');
+        float:right
+
+}
