@@ -1,0 +1,11 @@
+.tileContainer{
+        /* display:inline-block; */
+        /* margin-left:50px */
+}
+.tile{
+        display:inline-block;
+        height:150px;
+        width:100px;
+        margin:10px;
+        background-color:grey;
+}

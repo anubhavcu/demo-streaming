@@ -1,15 +1,34 @@
-
-.movies-tile{
-        width:100px;
-        float:left;
-        height:100px;
-        margin: 10px;
-        background:yellow
+.tiles{
+        display: grid;
+        grid-template-columns:repeat(auto-fit, 145px)
 }
+.movies-tile{
+         width:127px;
+         float:left;
+         height:197px;
+         margin: 20px;
+         background-image:url('../assets/movie.jpg');
+         background-size: 100% 100%;
+         display: block;
+         transition: .5s ease;
+         backface-visibility: hidden;
+}
+.movies-tile:hover{
+        opacity:0.8;
+        transform:scale(1.1)
+}
+/* background-size :100% 100%  - forces background image to fit in a div */
 .series-tile{
-        width:100px;
+        width:127px;
         float:left;
-        height:100px;
-        margin: 10px;
-        background:grey
+        height:197px;
+        margin: 20px;
+        background-image: url('../assets/series.jpg');
+        background-size: 100% 100%;
+         transition: .5s ease;
+         backface-visibility: hidden;
+}
+.series-tile:hover{
+        opacity:0.8;
+        transform:scale(1.1)
 }

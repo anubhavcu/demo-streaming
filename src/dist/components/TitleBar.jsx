@@ -7,7 +7,9 @@ export default class TitleBar extends Component {
       <section className="bg-dark text-center ">
         <div className="container">
           <nav className="navbar navbar-dark bg-dark">
-            <a className="text-white">Popular {this.props.title}</a>
+            <a className="text-white">
+              Popular <strong>{this.props.title}</strong>
+            </a>
           </nav>
         </div>
       </section>
