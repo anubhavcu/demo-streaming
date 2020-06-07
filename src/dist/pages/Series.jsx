@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 import Content from "../components/content/Content";
 export default class Home extends Component {
   state = {
-    title: "Series",
+    title: "series",
   };
   render() {
     return (
       <div>
         <Header />
         <TitleBar title={this.state.title} />
-        <Content />
+        <Content title={this.state.title} />
         <Footer />
       </div>
     );
