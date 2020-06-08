@@ -4,7 +4,7 @@ import "./TitleBar.css";
 export default class TitleBar extends Component {
   render() {
     return (
-      <section className="bg-dark text-center ">
+      <section className="bg-dark text-center titlebar">
         <div className="container">
           <nav className="navbar navbar-dark bg-dark">
             <a className="text-white">

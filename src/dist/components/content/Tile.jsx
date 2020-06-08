@@ -2,11 +2,31 @@ import React, { Component } from "react";
 import "./tile.css";
 
 export default class Tile extends Component {
-  componentDidMount() {
-    const { description, programType, releaseYear, images } = this.props;
-    console.log(programType);
-  }
+  state = {
+    imageUrl: "",
+    programTitle: "",
+  };
   render() {
-    return <div className="tile"> </div>;
+    this.state.imageUrl = this.props.images["Poster Art"].url;
+    this.state.programTitle = this.props.title;
+
+    return (
+      <div
+        style={{
+          display: "inline-block",
+          padding: "10px",
+          wordWrap: "break-word",
+        }}
+      >
+        <div className="tile">
+          <img
+            id={`tileImage-${this.key}`}
+            className="tileImage"
+            src={this.state.imageUrl}
+          ></img>
+        </div>
+        {/* <p>{this.state.programTitle}</p> */}
+      </div>
+    );
   }
 }

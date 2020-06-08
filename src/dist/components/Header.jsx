@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Header extends Component {
   render() {
     return (
-      <section className="bg-primary text-center">
+      <section className="bg-primary text-center header">
         <div className="container">
           {/* <h1 className="text-left text-white">Demo Streaming</h1> */}
           {/* <a href="#" className="badge badge-dark text-right"> */}

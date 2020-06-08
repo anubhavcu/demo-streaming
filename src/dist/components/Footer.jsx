@@ -4,7 +4,7 @@ import "./footer.css";
 export default class Footer extends Component {
   render() {
     return (
-      <section className="bg-dark text-center fixed-bottom ">
+      <section className="bg-dark text-center fixed-bottom footer">
         <div className="container ">
           <nav className="navbar navbar-dark bg-dark">
             <div className="text-md-left">
