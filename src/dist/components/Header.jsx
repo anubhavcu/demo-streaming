@@ -5,10 +5,6 @@ export default class Header extends Component {
     return (
       <section className="bg-primary text-center header">
         <div className="container">
-          {/* <h1 className="text-left text-white">Demo Streaming</h1> */}
-          {/* <a href="#" className="badge badge-dark text-right"> */}
-          {/*   Log In */}
-          {/* </a> */}
           <nav className="navbar navbar-dark bg-primary">
             <a className="navbar-brand" href=".">
               <strong>Demo Streaming</strong>
@@ -18,7 +14,7 @@ export default class Header extends Component {
               <a href="#" className="badge badge-primary m-2">
                 Log in
               </a>
-              <a href="https://google.com">
+              <a href="#">
                 <button className="btn btn-dark btn-sm">
                   Start Your Free Trial
                 </button>

@@ -11,21 +11,21 @@ export default class Tile extends Component {
     this.state.programTitle = this.props.title;
 
     return (
-      <div
-        style={{
-          display: "inline-block",
-          padding: "10px",
-          wordWrap: "break-word",
-        }}
-      >
-        <div className="tile">
-          <img
-            id={`tileImage-${this.key}`}
-            className="tileImage"
-            src={this.state.imageUrl}
-          ></img>
+      <div className="tile">
+        <div className="card">
+          <a href="javascript:void(0)">
+            <img
+              id={`tileImage-${this.key}`}
+              className="tileImage"
+              className="card-img-top"
+              src={this.state.imageUrl}
+            ></img>
+            <p className="card-text " style={{ color: "black" }}>
+              {" "}
+              <small>{this.state.programTitle}</small>
+            </p>
+          </a>
         </div>
-        {/* <p>{this.state.programTitle}</p> */}
       </div>
     );
   }

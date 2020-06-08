@@ -11,7 +11,6 @@ export default class Content extends Component {
   componentDidMount() {
     const dataToFetch = this.props.title;
     this.getTilesData(dataToFetch);
-    // console.log(dataToFetch);
   }
   // getContentSize = () => {
   //   const navBarHeight = document.querySelector(".header").clientHeight;
@@ -31,10 +30,7 @@ export default class Content extends Component {
           (entry) =>
             entry.programType === dataToFetch && entry.releaseYear >= 2010
         );
-        // this.dataToDisplay = this.actualData.slice(0, 21);
         this.setState({ dataToDisplay: this.actualData.slice(0, 21) });
-        // console.log(this.actualData);
-        // console.log(this.state.dataToDisplay);
       });
   };
 
@@ -42,11 +38,10 @@ export default class Content extends Component {
     const { dataToDisplay } = this.state;
 
     return (
-      <div className="container overflow-auto ">
-        <div className="container tileContainer overflow-auto ">
+      <div className="container ">
+        <div className="container tileContainer  ">
           {dataToDisplay.map((entry, Idx) => {
             {
-              // entry.map((node, nodeIdx) => {
               const {
                 description,
                 programType,
@@ -65,7 +60,6 @@ export default class Content extends Component {
                   key={Idx}
                 ></Tile>
               );
-              // });
             }
           })}
         </div>

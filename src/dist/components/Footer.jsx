@@ -4,7 +4,7 @@ import "./footer.css";
 export default class Footer extends Component {
   render() {
     return (
-      <section className="bg-dark text-center fixed-bottom footer">
+      <section className="bg-dark text-center footer fixed-bottom ">
         <div className="container ">
           <nav className="navbar navbar-dark bg-dark">
             <div className="text-md-left">
@@ -23,22 +23,29 @@ export default class Footer extends Component {
                   </small>
                 </p>
                 <div className="float-left mb-3">
-                  <a href="#" className="fb-ic mr-4 text-white" role="button">
+                  <a href="." className="fb-ic mr-4 text-white" role="button">
                     <i className="fab fa-lg fa-facebook-f"></i>
                   </a>
-                  <a href="#" className="tw-ic mr-4 text-white" role="button">
+                  <a href="." className="tw-ic mr-4 text-white" role="button">
                     <i className="fab fa-lg fa-twitter"></i>
                   </a>
-                  <a href="#" className="ins-ic mr-4 text-white" role="button">
+                  <a href="." className="ins-ic mr-4 text-white" role="button">
                     <i className="fab fa-lg fa-instagram"></i>
                   </a>
                 </div>
               </div>
             </div>
             <div className="download-logos">
-              <div className="windows-store-logo"></div>
-              <div className="play-store-logo"></div>
-              <div className="apple-store-logo"></div>
+              <a href="https://google.com">
+                {" "}
+                <div className="."></div>
+              </a>
+              <a href=".">
+                <div className="play-store-logo"></div>
+              </a>
+              <a href=".">
+                <div className="apple-store-logo"></div>
+              </a>
             </div>
           </nav>
         </div>
