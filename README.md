@@ -30,12 +30,11 @@ we can see the file structure below :
        - [home.css](dist/pages/home.css)
    - [index.css](index.css)
    - [index.js](index.js)
-   - [newReadme.md](newReadme.md)
    - [serviceWorker.js](serviceWorker.js)
    - [setupTests.js](setupTests.js)
 
 ```
-The above tree was generated using [this](https://github.com/michalbe/md-file-tree)utility.
+The above tree was generated using [this](https://github.com/michalbe/md-file-tree) utility.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
