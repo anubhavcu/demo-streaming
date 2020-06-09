@@ -6,6 +6,10 @@ export default class Tile extends Component {
     imageUrl: "",
     programTitle: "",
   };
+  componentDidMount() {
+    // console.log(this.props);
+  }
+
   render() {
     this.state.imageUrl = this.props.images["Poster Art"].url;
     this.state.programTitle = this.props.title;

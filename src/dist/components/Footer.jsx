@@ -36,9 +36,8 @@ export default class Footer extends Component {
               </div>
             </div>
             <div className="download-logos">
-              <a href="https://google.com">
-                {" "}
-                <div className="."></div>
+              <a href=".">
+                <div className="windows-store-logo"></div>
               </a>
               <a href=".">
                 <div className="play-store-logo"></div>
