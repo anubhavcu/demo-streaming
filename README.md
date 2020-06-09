@@ -41,6 +41,13 @@ The above tree was generated using [this](https://github.com/michalbe/md-file-tr
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Possible Improvements :
+- More emphasis on architectural design of pages and components.
+- Design emphasis on site stability.
+- loading effect on each tile component rather than it's parent (content) component.
+- more neat styling effects.
+
+
 ## Available Scripts
 
 To install dependencies :

@@ -18,7 +18,7 @@ export default class Footer extends Component {
               <div className="">
                 <p className="text-center text-md-left text-white icons">
                   <small>
-                    Copyright © 2016 DEMO Streaming.All rights reserved.
+                    Copyright © 2020 DEMO Streaming.All rights reserved.
                   </small>
                 </p>
                 <div className="float-left mb-3">
