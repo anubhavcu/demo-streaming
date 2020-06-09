@@ -15,7 +15,6 @@ export default class Footer extends Component {
                   <a>Help </a> | <a> Manage Account </a>
                 </small>
               </p>
-              {/* col-md-7 col-lg-8 */}
               <div className="">
                 <p className="text-center text-md-left text-white icons">
                   <small>

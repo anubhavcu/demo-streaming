@@ -1,9 +1,50 @@
+we can see the file structure below :
+
+```- __src__
+   - [App.css](App.css)
+   - [App.js](App.js)
+   - [App.test.js](App.test.js)
+   - __dist__
+     - __assets__
+       - [apple\-app\-store.svg](dist/assets/apple-app-store.svg)
+       - [cinema1.jpg](dist/assets/cinema1.jpg)
+       - [cinema2.jpg](dist/assets/cinema2.jpg)
+       - [facebook\-white.svg](dist/assets/facebook-white.svg)
+       - [movie.jpg](dist/assets/movie.jpg)
+       - [play\-store\-logo.svg](dist/assets/play-store-logo.svg)
+       - [series.jpg](dist/assets/series.jpg)
+       - [windows\-store.svg](dist/assets/windows-store.svg)
+     - __components__
+       - [Footer.jsx](dist/components/Footer.jsx)
+       - [Header.jsx](dist/components/Header.jsx)
+       - [TitleBar.jsx](dist/components/TitleBar.jsx)
+       - __content__
+         - [Content.jsx](dist/components/content/Content.jsx)
+         - [Tile.jsx](dist/components/content/Tile.jsx)
+         - [tile.css](dist/components/content/tile.css)
+       - [footer.css](dist/components/footer.css)
+     - __pages__
+       - [Home.jsx](dist/pages/Home.jsx)
+       - [Movies.jsx](dist/pages/Movies.jsx)
+       - [Series.jsx](dist/pages/Series.jsx)
+       - [home.css](dist/pages/home.css)
+   - [index.css](index.css)
+   - [index.js](index.js)
+   - [newReadme.md](newReadme.md)
+   - [serviceWorker.js](serviceWorker.js)
+   - [setupTests.js](setupTests.js)
+
+```
+The above tree was generated using [this](https://github.com/michalbe/md-file-tree)utility.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+To install dependencies :
+### `npm install`
 
+In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br />

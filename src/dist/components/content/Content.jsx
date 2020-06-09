@@ -10,19 +10,13 @@ export default class Content extends Component {
     isLoading: false,
   };
   actualData = [];
+  URL =
+    "https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json";
   componentDidMount() {
     this.setState({ isLoading: true });
     const dataToFetch = this.props.title;
     this.getTilesData(dataToFetch);
   }
-  // getContentSize = () => {
-  //   const navBarHeight = document.querySelector(".header").clientHeight;
-  //   const footerHeight = document.querySelector(".footer").clientHeight;
-  //   const titleBarHeight = document.querySelector(".titlebar").clientHeight;
-  //   const height =
-  //     window.innerHeight - navBarHeight - footerHeight - titleBarHeight;
-  //   console.log(navBarHeight, footerHeight, titleBarHeight, height);
-  // };
   handleErrors = (res) => {
     if (!res.ok) throw new Error(res.error);
 
@@ -46,9 +40,7 @@ export default class Content extends Component {
   };
 
   getTilesData = (dataToFetch) => {
-    fetch(
-      "https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json"
-    )
+    fetch(this.URL)
       .then(this.handleErrors)
       .then((res) => res.json())
       .then((data) => {
