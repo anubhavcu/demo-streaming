@@ -1,3 +1,6 @@
+To see the project in action [click here](https://anubhavcu.github.io/demo-streaming/#/) .
+
+
 we can see the file structure below :
 
 ```- __src__
